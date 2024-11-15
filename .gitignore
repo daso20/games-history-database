@@ -1,0 +1,4 @@
+__pycache__
+chap_env/
+db/
+.env
