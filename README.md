@@ -31,7 +31,7 @@ The following command can be used to start the program:
 python app
 ```
 
-The different menus can be accessed by entered an integer assigned to them. For example, in the 'main' menu, the following options are shown:
+The different menus can be accessed by entering an integer assigned to them. For example, in the 'main' menu, the following options are shown:
 ```
 1. Change to 'players' menu
 2. Change to 'games' menu
