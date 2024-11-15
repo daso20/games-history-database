@@ -2,3 +2,4 @@ __pycache__
 chap_env/
 db/
 .env
+db_chapito/
