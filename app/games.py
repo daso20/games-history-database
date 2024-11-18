@@ -21,7 +21,12 @@ class GameMenu():
             while True:
                 incorrect_player = False
                 players = input("Enter players separated by a comma: \n")
-                parsed_players = players.replace(" ", "").split(",")
+
+                # Parse players
+                parsed_players = []
+                for player_to_parse in players.split(","):
+                    parsed_players.append(player_to_parse.strip())
+
                 for player in parsed_players:
                     result = PlayerMenu.get_player(player)
                     if result == None:

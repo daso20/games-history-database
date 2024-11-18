@@ -13,6 +13,3 @@ def run_until_num_entered(input_string):
             print("Please enter an integer")
         else:
             return int(entered_number)
-        
-def file_exists():
-    pass
